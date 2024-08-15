@@ -1,0 +1,40 @@
+body {
+    background: rgb(86, 156, 145);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.4;
+    height: 170px;
+}
+
+.categoria-videos img:hover {
+    opacity: 2.0;
+    border: 5px solid #440577;
+}
+
+.categoria h2 {
+    color: #05070a;
+}
